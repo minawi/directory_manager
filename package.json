@@ -1,5 +1,5 @@
 {
-  "name": "directory_manager",
+  "name": "@minawi/directory_manager",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,14 @@
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "author": "Mo Abbouchi",
   "license": "ISC",
+  "repository": "https://github.com/minawi/directory_manager",
+  "homepage": "https://github.com/minawi/directory_manager#readme",
   "dependencies": {
     "commander": "^12.0.0",
     "figlet": "^1.7.0"
